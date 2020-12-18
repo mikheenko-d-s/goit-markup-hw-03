@@ -99,12 +99,12 @@ header > .container {
 
 /* Контакты */
 
-.contacts {
+.contacts-header {
   display: flex;
   margin-left: auto;
 }
 
-.contacts > .cont-item:not(:last-child) {
+.contacts-header > .cont-item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -207,6 +207,8 @@ header > .container {
 }
 
 .study-title {
+  padding-bottom: 50px;
+
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -218,6 +220,8 @@ header > .container {
 .study-item {
   display: flex;
   flex-wrap: wrap;
+  margin-right: -30px;
+  margin-top: -50px;
 }
 
 .pic {
@@ -229,6 +233,8 @@ header > .container {
 /* Секция Наша команда */
 
 .section-team {
+  padding-bottom: 94px;
+
   background: var(--team-background-color);
 }
 
@@ -247,6 +253,8 @@ header > .container {
 .team-item {
   display: flex;
   flex-wrap: wrap;
+  margin-right: -30px;
+  margin-bottom: -94px;
 }
 
 .card {
@@ -288,10 +296,13 @@ footer {
   background: var(--sec-background-color);
 }
 
-.logo-footer {
-  padding-top: 60px;
+footer > .container {
   display: block;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
+.logo-footer {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -318,10 +329,6 @@ footer {
   color: var(--main-color);
 }
 
-.contacts-footer {
-  padding-bottom: 60px;
-}
-
 .menu-cont {
   padding-top: 9px;
 
@@ -337,10 +344,6 @@ footer {
 }
 
 /*Портфолио*/
-
-.section {
-  margin-bottom: 94px;
-}
 
 /* Кнопки навигации */
 
@@ -393,6 +396,8 @@ footer {
 .work-item {
   display: flex;
   flex-wrap: wrap;
+  margin-right: -30px;
+  margin-top: -30px;
 }
 
 .work {
