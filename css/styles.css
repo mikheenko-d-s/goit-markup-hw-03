@@ -33,7 +33,7 @@ body {
 }
 
 .container {
-  width: 1170px;
+  width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -207,7 +207,7 @@ header > .container {
 }
 
 .study-title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 
   font-weight: bold;
   font-size: 36px;
@@ -233,13 +233,13 @@ header > .container {
 /* Наша команда */
 
 .section-team {
-  padding-bottom: 94px;
+  padding-top: 94px;
+  margin-bottom: 94px;
 
   background: var(--team-background-color);
 }
 
 .team-title {
-  padding-top: 94px;
   padding-bottom: 50px;
 
   font-weight: bold;
@@ -293,13 +293,14 @@ header > .container {
 /* Футер */
 
 footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background: var(--sec-background-color);
 }
 
 footer > .container {
   display: block;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 /* Лого-футер */
@@ -323,7 +324,7 @@ footer > .container {
 /* Адрес */
 
 .address-text {
-  padding-top: 20px;
+  margin-top: 20px;
 
   font-style: normal;
   font-weight: normal;
@@ -335,8 +336,12 @@ footer > .container {
 
 /* Контакты-футер */
 
+.menu-cont-item {
+  margin-top: 9px;
+}
+
 .menu-cont {
-  padding-top: 9px;
+  margin-top: 9px;
 
   font-size: 14px;
   line-height: 1.71;
@@ -399,12 +404,15 @@ footer > .container {
 
 /* Работы */
 
+.section-work {
+  padding-bottom: 94px;
+}
+
 .work-item {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
   margin-top: -30px;
-  padding-bottom: 94px;
 }
 
 .work {
@@ -417,9 +425,11 @@ footer > .container {
   box-sizing: border-box;
 }
 
-.work-name {
-  padding-left: 24px;
+.name-text-work {
+  padding: 20px 24px;
+}
 
+.work-name {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -429,8 +439,6 @@ footer > .container {
 }
 
 .work-text {
-  padding: 0 24px 20px;
-
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
