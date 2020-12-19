@@ -132,7 +132,7 @@ header > .container {
 }
 
 .title {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 
   font-weight: 900;
   font-size: 44px;
