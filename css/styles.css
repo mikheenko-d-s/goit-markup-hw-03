@@ -173,12 +173,10 @@ header > .container {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
-  margin-top: -94px;
 }
 
 .main-text {
   margin-right: 30px;
-  margin-top: 94px;
   flex-basis: calc(100% / 4 - 30px);
 }
 
@@ -221,12 +219,10 @@ header > .container {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
-  margin-top: -50px;
 }
 
 .pic {
   margin-right: 30px;
-  margin-top: 50px;
   flex-basis: calc(100% / 3 - 30px);
 }
 
